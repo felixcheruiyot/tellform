@@ -31,6 +31,8 @@ angular.module('forms').config(['$translateProvider', function ($translateProvid
 		TOGGLE_DISABLED: 'Désactivé',
 		ADD_VARIABLE_BUTTON: "Ajouter une variable",
 
+		WEBHOOKS: 'Webhooks',
+
 		// Afficher les formulaires
 		CREATE_A_NEW_FORM: "Créer un nouveau formulaire",
 		CREATE_FORM: "Créer un formulaire",

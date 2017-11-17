@@ -53,6 +53,11 @@ angular.module('forms').directive('configureFormDirective', ['$rootScope', '$fil
                         heading: $filter('translate')('RESPONDENT_NOTIFICATIONS_TAB'),
                         route: 'viewForm.configure.respondent_notifications',
                         active: false
+                    },
+                    {
+                        heading: $filter('translate')('WEBHOOKS'),
+                        route: 'viewForm.configure.webhooks',
+                        active: false
                     }
                 ];
 

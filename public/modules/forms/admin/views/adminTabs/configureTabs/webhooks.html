@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-sm-offset-2 col-sm-10">
+
+        <div class="row field">
+            <strong>
+                {{ 'WEBHOOK_INTRODUCTION_TEXT' | translate }}
+            </strong>
+        </div>
+
+        <div class="row field">
+            <div class="field-title col-sm-12">
+                <h5>{{ 'WEBHOOK_DESTINATION_URL' | translate }}:</h5>
+            </div>
+            <div class="col-sm-12 field-input">
+                <input class="form-control"
+                    type="text" 
+                    ng-model="myform.webhook.destinationUrl" 
+                    placeholder="ex. https://yourdomain.com/events">
+            </div>
+        </div>
+    </div>
+</div>

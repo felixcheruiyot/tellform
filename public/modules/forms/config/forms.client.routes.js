@@ -82,7 +82,11 @@ angular.module('forms').config(['$stateProvider',
 	    }).state('viewForm.configure.respondent_notifications', {
 			url: '/respondent_notifications',
 			templateUrl: 'modules/forms/admin/views/adminTabs/configureTabs/respondent-notifications.html'
-	    })
+			}).state('viewForm.configure.webhooks', {
+			url: '/webhooks',
+			templateUrl: 'modules/forms/admin/views/adminTabs/configureTabs/webhooks.html'
+			})
+			
 
 	    .state('viewForm.design', {
 			url: '/design',

@@ -31,6 +31,8 @@ angular.module('forms').config(['$translateProvider', function ($translateProvid
 		TOGGLE_DISABLED: 'disabilitato',
 		ADD_VARIABLE_BUTTON: 'Aggiungi variabile',
 
+		WEBHOOKS: 'Webhooks',
+
 		// Visualizzazione dei moduli di elenco
 		CREATE_A_NEW_FORM: 'Crea un nuovo modulo',
 		CREATE_FORM: 'Crea modulo',

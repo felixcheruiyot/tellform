@@ -31,6 +31,10 @@ angular.module('forms').config(['$translateProvider', function ($translateProvid
 		TOGGLE_DISABLED: 'Disabled',
 		ADD_VARIABLE_BUTTON: 'Add variable',
 
+		WEBHOOKS: 'Webhooks',
+		WEBHOOK_DESTINATION_URL: 'Destination URL',
+		WEBHOOK_INTRODUCTION_TEXT: 'Webhooks allow external services to be notified when certain events happen within your form.',
+
 		//List Forms View
 		CREATE_A_NEW_FORM: 'Create a new form',
 		CREATE_FORM: 'Create form',
